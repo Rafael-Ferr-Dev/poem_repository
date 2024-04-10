@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositório de Poemas</title>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <nav id="header">
+        <h1>Repositório de Poemas</h1>
+        <div id="button_header">
+            <a href="meuPerfil.html"><button id="button_perfil">Meu Perfil</button></a>
+            <a href="meusPoemas.html"><button> Meus Poemas</button> </a>
+        </div>
+    
+    </nav>
+    <div id="poem_div">
+        <div id="title_ofc"></div>
+        <div id="name_ofc"></div>
+        <div id="poem_ofc">
+        </div>
+        <div id="button_poem">
+            <button onclick="modificarDivCentral_Comentarios()" id="modificar">Comentários</button>
+        </div> 
+    </div>
+    <button onclick="request_poem()" id="new_poem"> > </button>
+    <script type="module" src="js/index.js"> </script>
+</body>
+</html>

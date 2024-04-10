@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Inconsolata;
+    font-style: normal;
+    background-color: #CEBE94;
+}
+h1{
+    position: absolute;
+    top: 2.3vh;
+    left: 1vw;
+    color: #FFF;
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+#header{
+    display: flex;
+    background-color: #531616;
+    height: 20vh;
+    font-size: 3.5vw;
+}
+#button_header{
+    position: absolute;
+    right: 0.5vw;
+    top: 2vw;
+}
+button{
+    border-style: none;
+    border-radius: 25px;
+    background: #F6CA56;
+    width: 20vw;
+    height: 7vh;
+    font-size: 2vw;
+}
+button:hover{
+    border-style: solid;
+}
+#poem_div{
+    display: flex;
+    position: absolute;
+    background-color: #56F6C6;
+    width: 47vw;
+    height: 35vh;
+    left: 26vw;
+    top: 40vh;
+    border-radius: 7px;
+    font-size: 1.5vw;
+}
+.button_poem_div{
+    width: 15vw;
+    height: 15vh;
+}
+#position_bpd{
+    display: flex;
+    position: absolute;    
+    left: 15vw;
+    top: 1vh;
+}
+#position_bpd_2{
+    display: flex;
+    position: absolute;    
+    left: 15vw;
+    top: 19vh;
+}

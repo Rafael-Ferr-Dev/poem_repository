@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Inconsolata;
+    font-style: normal;
+    background-color: #CEBE94;
+}
+h1{
+    position: absolute;
+    top: 2.3vh;
+    left: 1vw;
+    color: #FFF;
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+#header{
+    display: flex;
+    background-color: #531616;
+    height: 20vh;
+    font-size: 3.5vw;
+}
+#button_header{
+    position: absolute;
+    right: 0.5vw;
+    top: 2vw;
+}
+button{
+    border-style: none;
+    border-radius: 25px;
+    background: #F6CA56;
+    width: 20vw;
+    height: 7vh;
+    font-size: 2vw;
+}
+button:hover{
+    border-style: solid;
+}
+#poem_div{
+    display: flex;
+    position: absolute;
+    background-color: #56F6C6;
+    width: 95vw;
+    height: 70vh;
+    left: 2.5vw;
+    top: 25vh;
+    border-radius: 7px;
+    font-size: 1.5vw;
+}
+#button_poem{
+    display: flex;
+    position: absolute;
+    left: 72vw;
+    top:60vh;
+}
+#poem_ofc{
+    display: flex;
+    position: absolute;
+    width: 69vw;
+    height: 40vh;
+    left: 2.7vw;
+    top: 15vh;
+}
+#title_ofc{
+    display: flex;
+    position: absolute;
+    font-size: 2.5vw;
+    width: 39vw;
+    height: 8vh;
+    left: 2.7vw;
+    top: 2vh;
+}
+#name_ofc{
+    display: flex;
+    position: absolute;
+    font-size: 2.5vw;
+    width: 28vw;
+    height: 8vh;
+    left: 65vw;
+    top: 2vh;
+}
+#new_poem{
+    display: flex;
+    position: absolute;
+    background-color:#CEBE94;
+    font-size: 3vw;
+    width: 2.3vw;
+    right: 0.1vw;
+    top: 55vh;
+}
